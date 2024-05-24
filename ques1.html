@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques1</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="one.html">Problem 1</a> |
+        <a href="two.html">Problem 2</a> |
+        <a href="three.html">Problem 3</a> |
+        <a href="four.html">Problem 4</a> |
+        <a href="five.html">Problem 5</a> |
+        <a href="six.html">Problem 6</a> |
+        <a href="seven.html">Problem 7</a> |
+        <a href="eight.html">Problem 8</a> |
+        <a href="vue/index.html" target="_blank">Problem 9</a>
+    </nav> 
+    <br><br>
+    <table border="2" id="t">
+        <tr id="d">
+            <td>ID</td>
+            <td>Name</td>
+            <td>Action</td>
+        </tr>
+        <tr id="d">
+            <td>101</td>
+            <td>Jaminul Hasan</td>
+            <td><button>Delete</button></td>
+        </tr>
+        <tr id="d">
+            <td>102</td>
+            <td>Mohammad Rahman</td>
+            <td><button>Delete</button></td>
+        </tr>
+        <tr id="d">
+            <td>103</td>
+            <td>Abdul Kadir</td>
+            <td><button>Delete</button></td>
+        </tr>
+        <tr id="d">
+            <td>104</td>
+            <td>Shakib Al  Hasan</td>
+            <td><button>Delete</button></td>
+        </tr>
+        <tr id="d">
+            <td>105</td>
+            <td>Ishtiaq Ahmed</td>
+            <td><button>Delete</button></td>
+        </tr>
+        <script>
+            
+      
+      document.getElementById("t").addEventListener("click",function()
+      {
+          let a = document.getElementById("d");
+          a.remove("d");
+  
+      }
+      )
+        </script>
+    </table>
+</body>
+</html>
